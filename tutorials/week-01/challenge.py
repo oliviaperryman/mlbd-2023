@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 
+import pandas
+
 def person_a():
     """Reads the data in data/school_performance.csv
     and returns a dataframe with the first 5,000 rows.
@@ -23,8 +25,8 @@ def person_b(df):
     dataframe: Data from the female students
     """
     # Code goes over here.
-
-    raise NotImplementedError()
+    new_df = df.drop(df[df.gender != "female"].index)
+    return new_df
 
 def person_c(df):
     """Calculates the mean from the column "grade"
