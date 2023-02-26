@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 
-import pandas
-
 def person_a():
     """Reads the data in data/school_performance.csv
     and returns a dataframe with the first 5,000 rows.
