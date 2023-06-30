@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+scipy
+seaborn
+scikit-learn
+# pymer4: conda install -c ejolly -c conda-forge -c defaults pymer4
+statsmodels
+pyBKT
+pyAFM
+tensorflow
